@@ -1,0 +1,21 @@
+{
+  "config" : {
+    "zoomexecutable" : "/Users/john/zoom.applescript",
+    "editor" : "open -a TextEdit "
+  },
+  "rooms" : [
+    {
+      "name": "Standup",
+      "id": "1234567890",
+      "WARNING": "Space is not supported in user name",
+      "user": "John",
+      "password": "123456"
+    },
+    {
+      "name": "Planning",
+      "id": "1234567890",
+      "user": "John",
+      "password": "123456"
+    } 
+  ]
+}
