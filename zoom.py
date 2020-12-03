@@ -75,6 +75,7 @@ EDIT_CONFIG_COMMAND=CONFIG["config"]["editor"] + " " + CONFIG_FILE
 for roomConfig in CONFIG["rooms"]:
   command = "%s --room=%s --user=%s --password=%s" % (CONFIG["config"]["zoomexecutable"], roomConfig["id"], roomConfig["user"], roomConfig["password"])
   print roomConfig["name"] + " | bash='/bin/bash' param1='-c' param2='%s' terminal=false" % (command)
-  
+
+print "---"
 print "Edit config | bash='/bin/bash' param1='-c' param2='%s' terminal=false" % (EDIT_CONFIG_COMMAND)
 print "Reload config | terminal=false refresh=true"
