@@ -6,10 +6,9 @@
 # <bitbar.author>Andras Helyes</bitbar.author>
 # <bitbar.author.github>helyes</bitbar.author.github>
 # <bitbar.desc>Join zoom meeting</bitbar.desc>
-# <bitbar.image>https://github.com/helyes/bitbar-plugins/raw/master/aws-opsworks-ssh/bitbar-image-aws-opsworks-ssh.py.png</bitbar.image>
+# <bitbar.image>https://raw.githubusercontent.com/helyes/bitbar-zoom/master/assets/bitbar-zoom-dropdown.jpg</bitbar.image>
 # <bitbar.dependencies>python</bitbar.dependencies>
-# <bitbar.abouturl>https://github.com/helyes/bitbar-plugins/blob/master/aws-opsworks-ssh/aws-opsworks-ssh.py</bitbar.abouturl>
-# ./aws-opsworks-ssh/aws-opsworks-ssh.py
+# <bitbar.abouturl>https://github.com/helyes/bitbar-zoom</bitbar.abouturl>
 
 import json
 import os
